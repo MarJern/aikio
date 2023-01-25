@@ -1,0 +1,44 @@
+h1, h2, h3, h4 {
+    font-family: $font-heading;
+    font-weight: 300;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+.heading {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.bold {
+    font-weight: 700;
+}
+.light {
+    font-weight: 300;
+}
+.component__title {
+    color: $colour-ui-accent !important;
+}
+.intro__text {
+    font-weight: 400;
+}
+.email {
+    text-decoration: underline;
+}
+.kontakt{
+    text-decoration: underline;
+    color: $colour-ui-primary;
+    font-weight: 400;
+}
+.highlighted__text {
+    color: $colour-ui-accent;
+}
+.yellow {
+    color: $colour-ui-accent !important;
+}
+.oss__email {
+    font-weight: 300;
+    font-family: $font-primary;
+}

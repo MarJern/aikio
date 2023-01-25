@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;   
+    flex-direction: column; 
+    background-color: $colour-primary;
+    color: $colour-secondary;
+    font-family: $font-primary;
+    font-weight: 300;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.container {
+    overflow: hidden;
+    padding: 0;
+}
+.wrapper {
+    flex: 1 0 auto;
+    margin: 0 auto;
+
+    @media (min-width: 481px) {
+        max-width: 80vw; }
+    
+    @media (min-width: 959px) {
+        max-width: 80vw; }
+}
+
+// .nowrap {
+//     flex-wrap: nowrap;
+//     align-items: center;
+// }
+
+footer {
+    flex-shrink: 0; 
+    color: $colour-primary;
+    background-color: $colour-secondary;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+
+    .footer__link {
+        font-size: 0.7rem;
+        color: $colour-primary !important;
+        font-weight: 300 !important;
+        padding-left: 0;
+    }
+    p {
+        margin: 0 0 0 .5rem;
+    }
+    @media (min-width: 768px) {
+        margin-top: 4rem;
+    }
+    .footer__desktop__wrapper {
+        @media (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            // width: 100%;
+            padding-left: 3rem;
+        }
+    }
+    .footer__desktop {
+        @media (min-width: 768px) {
+            max-width: 50%;
+            flex-wrap: wrap;
+        }
+    }
+    .desktop__link {
+        @media (min-width: 768px) {
+            display: inline;
+            padding: 0 .4rem;
+        }
+    }
+    .footer__nav {
+        @media (min-width: 768px) {
+            padding-top: .8rem;
+            text-align: right;
+        }
+    }
+
+}
+// .hide {
+//     display: none;
+// }
+// .hero__section {
+//     background-repeat: repeat-x;
+//     // background-attachment: fixed;
+//     // background-size: cover;
+
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+.iframe__container {
+padding: 1rem;
+}

@@ -1,0 +1,25 @@
+.card {
+    width: 80vw;
+    background-color: $colour-primary;
+    border: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+.album__wrapper {
+    margin: 1rem;
+}
+.album_info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.album_info-item {
+    padding: 0 0.4rem 0 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.album__image {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    object-fit: contain;
+}
